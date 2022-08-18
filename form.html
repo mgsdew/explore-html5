@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form Example</h1>
+    <form action="">
+       <p>
+        Name:
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+       </p>
+        <p>Email: 
+        <input type="text" name="email" id="email" placeholder="Enter your email"></p>
+        <fieldset>
+            <legend>Choose Stationary: </legend>
+            <p>
+                <label for="pen"><input type="radio" name="Stationary" id="pen">Pen</label>
+            </p>
+            <p>
+                <label for="book"><input type="radio" name="Stationary" id="book">Book</label>
+            </p>
+            <p>
+                <label for="pencil"><input type="radio" name="Stationary" id="pencil">Pencil</label>
+            </p>
+            <p>
+                <label for="eraser"><input type="radio" name="Stationary" id="eraser">Eraser</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Choose Subject
+            </legend>
+            <p><label for="bengla"><input type="checkbox" name="Subject" id="bengla">Bengla</label></p>
+            <p><label for="english"><input type="checkbox" name="Subject" id="english">English</label></p>
+            <p><label for="math"><input type="checkbox" name="Subject" id="math">Math</label></p>
+        </fieldset>
+        <p>Special Instruction:
+            <br>
+            <textarea name="instruction" id="instruction" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

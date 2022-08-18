@@ -1,0 +1,33 @@
+
+
+Diff between HTML & HTML5 : https://www.geeksforgeeks.org/difference-between-html-and-html5/
+
+We have 3 part in HTML-5 body: header, main, footer
+
+
+** Audio/Video support in HTML5
+** Allows JavaScript to run in background. This is possible due to JS Web worker API in HTML5.
+** HTML-5 uses SQL databases and application cache to store offline data where HTML use Cookies for storing data
+
+
+
+For showing Audio/Video use tag: <audio></audio>  <video></video>
+
+src="" for audio/video link 
+controls = for showing controls in browser 
+
+For showing Youtube video you need to go youtube > open video > click share > take embed code
+
+Some useful link : https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content
+
+
+Auto generate code:  .blog*4>h3{my blog - $}+p>lorem50   [Here, (.blog) means the class name of 'div' elements]
+
+
+
+Use 'Header' tag inside body for header type elements
+
+
+In HTML-5, We replace : parent -- div > section & child -- div > article 
+
+         , button type 'reset' a built-in-type for reset all input inside form
